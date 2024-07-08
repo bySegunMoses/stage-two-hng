@@ -1,0 +1,50 @@
+2024/07/07 20:59:40 [warn] 183#183: 512 worker_connections are not enough, reusing connections
+2024/07/07 20:59:40 [alert] 183#183: 512 worker_connections are not enough
+2024/07/07 20:59:40 [error] 184#184: *969 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "proxy.stagetwodevops.chickenkiller.com", referrer: "http://proxy.stagetwodevops.chickenkiller.com/"
+2024/07/07 21:00:47 [warn] 183#183: 512 worker_connections are not enough, reusing connections
+2024/07/07 21:00:47 [alert] 183#183: 512 worker_connections are not enough
+2024/07/07 21:00:47 [error] 184#184: *1953 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "db.stagetwodevops.chickenkiller.com", referrer: "http://db.stagetwodevops.chickenkiller.com/"
+2024/07/07 21:08:16 [warn] 183#183: 512 worker_connections are not enough, reusing connections
+2024/07/07 21:08:16 [alert] 184#184: 512 worker_connections are not enough
+2024/07/07 21:08:16 [error] 184#184: *1005 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "proxy.stagetwodevops.chickenkiller.com", referrer: "http://proxy.stagetwodevops.chickenkiller.com/"
+2024/07/07 21:08:20 [warn] 183#183: 512 worker_connections are not enough, reusing connections
+2024/07/07 21:08:20 [warn] 184#184: 512 worker_connections are not enough, reusing connections
+2024/07/07 21:08:20 [alert] 183#183: 512 worker_connections are not enough
+2024/07/07 21:08:20 [error] 184#184: *1992 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "db.stagetwodevops.chickenkiller.com", referrer: "http://db.stagetwodevops.chickenkiller.com/"
+2024/07/07 21:08:35 [warn] 183#183: 512 worker_connections are not enough, reusing connections
+2024/07/07 21:08:35 [warn] 184#184: 512 worker_connections are not enough, reusing connections
+2024/07/07 21:08:35 [alert] 183#183: 512 worker_connections are not enough
+2024/07/07 21:08:35 [error] 184#184: *2975 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "stagetwodevops.chickenkiller.com", referrer: "http://stagetwodevops.chickenkiller.com/"
+2024/07/07 21:15:25 [warn] 155#155: server name "http://proxy.stagetwodevops.chickenkiller.com/" has suspicious symbols in /data/nginx/proxy_host/1.conf:20
+2024/07/07 21:16:42 [warn] 155#155: server name "http://proxy.stagetwodevops.chickenkiller.com" has suspicious symbols in /data/nginx/proxy_host/1.conf:20
+2024/07/07 21:16:43 [alert] 213#213: 512 worker_connections are not enough
+2024/07/07 21:16:43 [error] 214#214: *3986 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "3.87.64.254"
+2024/07/07 21:16:44 [error] 213#213: *3988 open() "/var/www/html/robots.txt" failed (2: No such file or directory), client: 152.32.245.93, server: localhost-nginx-proxy-manager, request: "GET /robots.txt HTTP/1.1", host: "3.87.64.254"
+2024/07/07 21:16:44 [error] 213#213: *3989 open() "/var/www/html/sitemap.xml" failed (2: No such file or directory), client: 152.32.245.93, server: localhost-nginx-proxy-manager, request: "GET /sitemap.xml HTTP/1.1", host: "3.87.64.254"
+2024/07/07 21:16:45 [error] 213#213: *3990 open() "/var/www/html/config.json" failed (2: No such file or directory), client: 152.32.245.93, server: localhost-nginx-proxy-manager, request: "GET /config.json HTTP/1.1", host: "3.87.64.254"
+2024/07/07 21:20:11 [warn] 184#184: 512 worker_connections are not enough, reusing connections
+2024/07/07 21:20:11 [alert] 184#184: 512 worker_connections are not enough
+2024/07/07 21:20:11 [error] 183#183: *987 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "proxy.stagetwodevops.chickenkiller.com", referrer: "http://proxy.stagetwodevops.chickenkiller.com/"
+2024/07/07 22:31:31 [error] 185#185: *57 open() "/var/www/html/UpgradeManager/sns/message/receive" failed (2: No such file or directory), client: 15.221.161.33, server: localhost-nginx-proxy-manager, request: "POST /UpgradeManager/sns/message/receive HTTP/1.1", host: "3.87.64.254"
+2024/07/07 22:34:40 [warn] 204#204: 512 worker_connections are not enough, reusing connections
+2024/07/07 22:34:40 [alert] 204#204: *1134 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "db.stagetwodevops.chickenkiller.com", referrer: "http://db.stagetwodevops.chickenkiller.com/"
+2024/07/07 22:38:48 [error] 204#204: *1238 open() "/var/www/html/UpgradeManager/sns/message/receive" failed (2: No such file or directory), client: 15.221.160.44, server: localhost-nginx-proxy-manager, request: "POST /UpgradeManager/sns/message/receive HTTP/1.1", host: "3.87.64.254"
+2024/07/07 22:41:19 [error] 204#204: *1249 open() "/var/www/html/UpgradeManager/sns/message/receive" failed (2: No such file or directory), client: 15.221.161.94, server: localhost-nginx-proxy-manager, request: "POST /UpgradeManager/sns/message/receive HTTP/1.1", host: "3.87.64.254"
+2024/07/07 22:41:26 [error] 204#204: *1250 open() "/var/www/html/UpgradeManager/sns/message/receive" failed (2: No such file or directory), client: 15.221.161.31, server: localhost-nginx-proxy-manager, request: "POST /UpgradeManager/sns/message/receive HTTP/1.1", host: "3.87.64.254"
+2024/07/07 22:45:46 [error] 204#204: *93 open() "/var/www/html/UpgradeManager/sns/message/receive" failed (2: No such file or directory), client: 15.221.161.101, server: localhost-nginx-proxy-manager, request: "POST /UpgradeManager/sns/message/receive HTTP/1.1", host: "3.87.64.254"
+2024/07/07 22:52:47 [error] 204#204: *129 open() "/var/www/html/druid/index.html" failed (2: No such file or directory), client: 40.118.210.19, server: localhost-nginx-proxy-manager, request: "GET /druid/index.html HTTP/1.1", host: "3.87.64.254"
+2024/07/07 23:08:07 [error] 204#204: *199 open() "/var/www/html/_profiler/phpinfo" failed (2: No such file or directory), client: 104.234.204.106, server: localhost-nginx-proxy-manager, request: "GET /_profiler/phpinfo HTTP/1.1", host: "3.87.64.254"
+2024/07/07 23:18:56 [error] 186#186: *207 open() "/var/www/html/boaform/admin/formLogin" failed (2: No such file or directory), client: 94.156.66.39, server: localhost-nginx-proxy-manager, request: "POST /boaform/admin/formLogin HTTP/1.1", host: "3.87.64.254:80", referrer: "http://3.87.64.254:80/admin/login.asp"
+2024/07/07 23:33:14 [error] 204#204: *398 open() "/var/www/html/.env" failed (2: No such file or directory), client: 185.254.196.173, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "3.87.64.254"
+2024/07/08 00:48:57 [warn] 204#204: 512 worker_connections are not enough, reusing connections
+2024/07/08 00:48:57 [alert] 204#204: *3317 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "3.87.64.254", referrer: "http://3.87.64.254/"
+2024/07/08 00:55:34 [error] 204#204: *3533 open() "/var/www/html/api/v1/login/access-token" failed (2: No such file or directory), client: 197.242.97.63, server: localhost-nginx-proxy-manager, request: "GET /api/v1/login/access-token HTTP/1.1", host: "3.87.64.254"
+2024/07/08 00:57:54 [warn] 157#157: server name "stagetwodevops.chickenkiller.com/api" has suspicious symbols in /data/nginx/proxy_host/4.conf:20
+2024/07/08 01:06:17 [error] 187#187: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 197.242.97.63, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "3.87.64.254:81", referrer: "http://3.87.64.254:81/nginx/proxy"
+2024/07/08 01:30:46 [warn] 158#158: server name "stagetwodevops.chickenkiller.com/api" has suspicious symbols in /data/nginx/proxy_host/4.conf:20
+2024/07/08 01:32:05 [error] 206#206: *501 open() "/var/www/html/hudson" failed (2: No such file or directory), client: 172.168.41.227, server: localhost-nginx-proxy-manager, request: "GET /hudson HTTP/1.1", host: "3.87.64.254"
+2024/07/08 01:33:24 [warn] 158#158: server name "stagetwodevops.chickenkiller.com/api" has suspicious symbols in /data/nginx/proxy_host/4.conf:20
+2024/07/08 01:34:14 [warn] 158#158: server name "stagetwodevops.chickenkiller.com/api" has suspicious symbols in /data/nginx/proxy_host/4.conf:20
+2024/07/08 01:36:54 [warn] 158#158: server name "stagetwodevops.chickenkiller.com/api" has suspicious symbols in /data/nginx/proxy_host/4.conf:20
+2024/07/08 01:47:47 [warn] 158#158: server name "stagetwodevops.chickenkiller.com/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:20
+2024/07/08 02:01:13 [error] 216#216: *294 open() "/var/www/html/UpgradeManager/sns/message/receive" failed (2: No such file or directory), client: 72.21.217.153, server: localhost-nginx-proxy-manager, request: "POST /UpgradeManager/sns/message/receive HTTP/1.1", host: "3.87.64.254"
